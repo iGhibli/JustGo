@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi"
+  ],
+  "requiredBackgroundModes": ["audio"],
+  "window": {
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FF965D",
+    "navigationBarTitleText": "运动吧",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_component.png",
+        "selectedIconPath": "images/icon_component_HL.png",
+        "text": "我"
+      },
+      {
+        "pagePath": "pages/openapi/openapi",
+        "iconPath": "images/icon_API.png",
+        "selectedIconPath": "images/icon_API_HL.png",
+        "text": "好友"
+      }
+    ],
+    "selectedColor": "#F06F5F"
+  },
+  "sitemapLocation": "sitemap.json"
+}
